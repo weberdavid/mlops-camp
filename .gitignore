@@ -1,8 +1,15 @@
 # ignore folders
 data
 models
+02-experiment-tracking/artifacts
+02-experiment-tracking/mlruns
+02-experiment-tracking/output
+artifacts
+mlruns
+preprocessor
 
-
+# ignore mlflow db
+mlflow.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
