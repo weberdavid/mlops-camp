@@ -7,6 +7,9 @@ models
 artifacts
 mlruns
 preprocessor
+prefect-storage
+
+.DS_Store
 
 # ignore mlflow db
 mlflow.db
