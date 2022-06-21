@@ -43,7 +43,6 @@ def apply_model(input_file, year, month, output_file):
     y_pred = lr.predict(X_val)
 
     print('Mean of preds: ', y_pred.mean())
-    #2021-03: 16,29
 
     df_result = pd.DataFrame()
     df_result['ride_id'] = f'{year:04d}/{month:02d}_' + df.index.astype('str')
