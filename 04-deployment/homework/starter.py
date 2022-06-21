@@ -1,13 +1,3 @@
-# 'pip freeze | grep scikit-learn'
-
-#Q1: 16,19
-#Q2: 19,7
-#Q3: jupyter nbconvert --to script file-name.ipynb
-#Q4: sha256:08ef968f6b72033c16c479c966bf37ccd49b06ea91b765e1cc27afefe723920b
-#Q5: 16,29
-#Q6: 9.96
-
-
 import sys
 import pickle
 import pandas as pd
